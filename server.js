@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 var server = app.listen(8081, function () {
-  console.log("Boom Boom");
+  console.log("Meow");
 })
 var io = require('socket.io')(server);    //http://socket.io/docs/
 
